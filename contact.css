@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.icons-contact {
+    font-size: 75%;
+  }
+}
+
+
+.nav-bar{
+  text-align: right;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  margin-top: 1.25rem;
+  margin-right: 0.9375rem;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+li a, li a:visited{
+  color: white;
+  text-decoration: none;
+  padding: 0.625rem;
+}
+li a:hover{
+  position: relative;
+  border-bottom: 2px solid white;
+  transition:  all 0.3s ease-out;
+}
+
+.contact-header{
+  height:100vh;
+  background-image: url(grass.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.icons{
+  text-align: center;
+}
+
+.icons-contact{
+  font-size: 3.125rem;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icons-contact i{
+  padding: 1.5625rem;
+  margin-right: 1.875rem;
+}
+
+.fab{
+  border-radius: 50%;
+  background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+}
+.fas{
+  background: linear-gradient(60deg, #3b5998, #d748f0);
+  border-radius: 50%;
+}
+
+.fa-facebook{
+  background: linear-gradient(60deg, #3b5998, #487ef0)
+}
+
+.fa-github{
+  background: linear-gradient(60deg, #181a1f, #404859);
+}
+
+.icons-contact a, .icons-contact a:visited{
+  color: white;
+  text-decoration: none;
+}
+.icons-contact a i{
+  transition: all 1s ease;
+}
+
+.icons-contact a:hover i{
+  transform: scale(1.5);
+  transition: all 1s ease;
+
+}
+
+.contact-text{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+}

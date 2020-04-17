@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+/*#33df97 #2942ee*/
+.content{
+  width: 100%;
+  margin-left: 15%;
+}
+
+.heading{
+  border-bottom: 2px solid #2942ee;
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 1.25%;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.subheadprime{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  margin-bottom: 5%
+}
+
+.subheadsec{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 2px solid #33df97;
+  margin-bottom: 2rem;
+}
+
+.navbar{
+  margin-top: 2%;
+  text-align: left;
+}
+
+.navbar a, .navbar a:visited{
+  text-decoration: none;
+  color: #6b736d;
+  padding-right:1.75rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.navbar a:hover{
+  color:orange;
+  transition-duration: 0.6s;
+}
+.posthead{
+  padding-bottom: 13%
+}
+
+.posthead a, .posthead a:visited{
+  text-decoration: none;
+  font-family:'Darker Grotesque', sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: black;
+  font-size: 3.5rem;
+
+}
+
+.posthead a:hover{
+  border-bottom: 0.2rem solid purple;
+  transition-duration: 0.5s;
+
+}
+
+.datetime{
+  padding-left: 3%;
+  font-style: italic;
+  font-family:'Darker Grotesque', sans-serif;
+  font-size: 2rem
+}
+
+.iconclass{
+
+  font-size: 1.5rem;
+
+}
+ i{
+   color: #a42cd4;
+   padding-right: 0.5%
+ }
+
+ i:hover{
+   color:orange;
+ }
